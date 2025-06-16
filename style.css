@@ -1,0 +1,19 @@
+/* Simple af, just center the canvas and background white */
+
+body {
+  margin: 0;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  user-select: none;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+
+canvas {
+  border: 2px solid #333;
+  background: #fff;
+  display: block;
+}
